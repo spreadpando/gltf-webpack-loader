@@ -3,7 +3,7 @@
 const loaderUtils = require('loader-utils')
 const path = require('path')
 const schema = require('./options.json')
-const { validate } = require('webpack/node_modules/schema-utils')
+const { validate } = require('schema-utils')
 
 const regExternal = /^https?:\/\//
 const regFileUrl = /\.(gif|png|bin|jpe?g)$/
