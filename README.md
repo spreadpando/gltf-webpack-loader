@@ -5,8 +5,6 @@ This is a gltf webpack loader, tested on three.js. Automatically bundles all ref
 This loader will resolve all the files referenced in the .gltf file and change their urls depending on the loaders you have defined for these files.
 Files defined in the .gltf file __must__ be relative to the .gltf file.
 
-This loader still does not work with the public path. We dont have a idea how to solve that.
-
 ### Install
 ```js
 npm install gltf-webpack-loader -S
